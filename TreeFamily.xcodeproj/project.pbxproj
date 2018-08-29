@@ -15,6 +15,19 @@
 		3576173521364E2900E34B4A /* TreeFamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3576173421364E2900E34B4A /* TreeFamilyTests.swift */; };
 		3576174021364E2900E34B4A /* TreeFamilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3576173F21364E2900E34B4A /* TreeFamilyUITests.swift */; };
 		35761751213660E700E34B4A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35761750213660E700E34B4A /* CreateAccountViewController.swift */; };
+		FC68D129213697C4008F1407 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D121213697C4008F1407 /* FirebaseAnalytics.framework */; };
+		FC68D12A213697C4008F1407 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D122213697C4008F1407 /* FirebaseInstanceID.framework */; };
+		FC68D12B213697C4008F1407 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D123213697C4008F1407 /* FirebaseCore.framework */; };
+		FC68D12C213697C4008F1407 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D124213697C4008F1407 /* GoogleAppMeasurement.framework */; };
+		FC68D12D213697C4008F1407 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D125213697C4008F1407 /* GoogleUtilities.framework */; };
+		FC68D12E213697C4008F1407 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D126213697C4008F1407 /* FirebaseCoreDiagnostics.framework */; };
+		FC68D12F213697C4008F1407 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D127213697C4008F1407 /* nanopb.framework */; };
+		FC68D130213697C4008F1407 /* MeasurementNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D128213697C4008F1407 /* MeasurementNanoPB.framework */; };
+		FC68D132213697D0008F1407 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D131213697D0008F1407 /* libc++.tbd */; };
+		FC68D134213697DD008F1407 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D133213697DD008F1407 /* libsqlite3.tbd */; };
+		FC68D136213697E3008F1407 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D135213697E3008F1407 /* libz.tbd */; };
+		FC68D138213697EC008F1407 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC68D137213697EC008F1407 /* StoreKit.framework */; };
+		FC68D13A2136983C008F1407 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC68D1392136983C008F1407 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		3576173F21364E2900E34B4A /* TreeFamilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeFamilyUITests.swift; sourceTree = "<group>"; };
 		3576174121364E2900E34B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35761750213660E700E34B4A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		FC68D121213697C4008F1407 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		FC68D122213697C4008F1407 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Carthage/Build/iOS/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		FC68D123213697C4008F1407 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Carthage/Build/iOS/FirebaseCore.framework; sourceTree = "<group>"; };
+		FC68D124213697C4008F1407 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = Carthage/Build/iOS/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		FC68D125213697C4008F1407 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Carthage/Build/iOS/GoogleUtilities.framework; sourceTree = "<group>"; };
+		FC68D126213697C4008F1407 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Carthage/Build/iOS/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		FC68D127213697C4008F1407 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = Carthage/Build/iOS/nanopb.framework; sourceTree = "<group>"; };
+		FC68D128213697C4008F1407 /* MeasurementNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MeasurementNanoPB.framework; path = Carthage/Build/iOS/MeasurementNanoPB.framework; sourceTree = "<group>"; };
+		FC68D131213697D0008F1407 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FC68D133213697DD008F1407 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FC68D135213697E3008F1407 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FC68D137213697EC008F1407 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FC68D1392136983C008F1407 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "TreeFamily/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC68D138213697EC008F1407 /* StoreKit.framework in Frameworks */,
+				FC68D136213697E3008F1407 /* libz.tbd in Frameworks */,
+				FC68D134213697DD008F1407 /* libsqlite3.tbd in Frameworks */,
+				FC68D132213697D0008F1407 /* libc++.tbd in Frameworks */,
+				FC68D129213697C4008F1407 /* FirebaseAnalytics.framework in Frameworks */,
+				FC68D12A213697C4008F1407 /* FirebaseInstanceID.framework in Frameworks */,
+				FC68D12B213697C4008F1407 /* FirebaseCore.framework in Frameworks */,
+				FC68D12C213697C4008F1407 /* GoogleAppMeasurement.framework in Frameworks */,
+				FC68D12D213697C4008F1407 /* GoogleUtilities.framework in Frameworks */,
+				FC68D12E213697C4008F1407 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				FC68D12F213697C4008F1407 /* nanopb.framework in Frameworks */,
+				FC68D130213697C4008F1407 /* MeasurementNanoPB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +117,12 @@
 		3576171321364E2700E34B4A = {
 			isa = PBXGroup;
 			children = (
+				FC68D1392136983C008F1407 /* GoogleService-Info.plist */,
 				3576171E21364E2700E34B4A /* TreeFamily */,
 				3576173321364E2900E34B4A /* TreeFamilyTests */,
 				3576173E21364E2900E34B4A /* TreeFamilyUITests */,
 				3576171D21364E2700E34B4A /* Products */,
+				FC68D120213697C3008F1407 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +174,25 @@
 				35761750213660E700E34B4A /* CreateAccountViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC68D120213697C3008F1407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC68D137213697EC008F1407 /* StoreKit.framework */,
+				FC68D135213697E3008F1407 /* libz.tbd */,
+				FC68D133213697DD008F1407 /* libsqlite3.tbd */,
+				FC68D131213697D0008F1407 /* libc++.tbd */,
+				FC68D121213697C4008F1407 /* FirebaseAnalytics.framework */,
+				FC68D123213697C4008F1407 /* FirebaseCore.framework */,
+				FC68D126213697C4008F1407 /* FirebaseCoreDiagnostics.framework */,
+				FC68D122213697C4008F1407 /* FirebaseInstanceID.framework */,
+				FC68D124213697C4008F1407 /* GoogleAppMeasurement.framework */,
+				FC68D125213697C4008F1407 /* GoogleUtilities.framework */,
+				FC68D128213697C4008F1407 /* MeasurementNanoPB.framework */,
+				FC68D127213697C4008F1407 /* nanopb.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3576172A21364E2900E34B4A /* LaunchScreen.storyboard in Resources */,
+				FC68D13A2136983C008F1407 /* GoogleService-Info.plist in Resources */,
 				3576172721364E2900E34B4A /* Assets.xcassets in Resources */,
 				3576172521364E2700E34B4A /* Main.storyboard in Resources */,
 			);
@@ -444,11 +504,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TreeFamily/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TreeFamily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,11 +527,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TreeFamily/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TreeFamily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
